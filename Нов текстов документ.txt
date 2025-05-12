@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн Казина - Най-добрите оферти</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .warning {
+      background-color: #ff4444;
+      padding: 10px;
+      font-size: 14px;
+      margin-top: 10px;
+      color: #fff;
+      font-weight: bold;
+    }
+    .casino-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+    .casino-card {
+      background-color: #2a2a2a;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .casino-card h2 {
+      margin-top: 0;
+    }
+    .casino-card p {
+      margin: 10px 0;
+    }
+    .play-btn {
+      display: inline-block;
+      background-color: #ff9800;
+      color: #000;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #1e1e1e;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .disclaimer {
+      color: #aaa;
+      font-style: italic;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Онлайн Казина - Топ избори за 2025</h1>
+    <p>Открий най-добрите бонуси и оферти от лицензирани оператори</p>
+    <div class="warning">⚠️ Само за лица над 18 години. Хазартът може да бъде рисков!</div>
+  </header>
+
+  <main class="casino-list">
+    <div class="casino-card">
+      <h2>Казино Слотове 777</h2>
+      <p>💰 Бонус: 100% до 500 лв + 100 безплатни завъртания</p>
+      <p>⭐ Рейтинг: 4.5/5</p>
+      <a href="https://example.com/aff/slots777" class="play-btn" target="_blank">Играй сега</a>
+    </div>
+
+    <div class="casino-card">
+      <h2>Роял Казино</h2>
+      <p>🎁 Бонус: 200% до 300 лв</p>
+      <p>⭐ Рейтинг: 4.2/5</p>
+      <a href="https://example.com/aff/royal" class="play-btn" target="_blank">Играй сега</a>
+    </div>
+
+    <div class="casino-card">
+      <h2>Мега Удар Казино</h2>
+      <p>🔥 Специална оферта: 50 безплатни завъртания при регистрация</p>
+      <p>⭐ Рейтинг: 4.8/5</p>
+      <a href="https://example.com/aff/mega" class="play-btn" target="_blank">Играй сега</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 ОнлайнКазина.bg<br>
+    <div class="disclaimer">
+      Този сайт не предлага хазартни игри и не събира лични данни. Цялата информация е с информативна цел. Хазартът е забранен за лица под 18 години и може да доведе до зависимост. Препращаме само към външни сайтове с партньорски връзки. Отговорността за участие е изцяло на потребителя.
+    </div>
+  </footer>
+
+</body>
+</html>
