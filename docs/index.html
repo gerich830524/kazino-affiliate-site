@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Казино Афилиейт Сайт</title>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body {
             font-family: Arial, sans-serif;
             background: #f2f2f2;
@@ -21,6 +24,9 @@
             background: #34495e;
             text-align: center;
             padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         nav a {
             color: white;
@@ -38,6 +44,9 @@
             background: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             border-radius: 8px;
+        }
+        section {
+            margin-bottom: 40px;
         }
         .offer {
             display: flex;
@@ -69,11 +78,10 @@
         .btn:hover {
             background: #d35400;
         }
-        footer {
-            text-align: center;
-            margin: 30px 0;
-            font-size: 0.9em;
-            color: #777;
+        form {
+            display: flex;
+            flex-direction: column;
         }
-
-        @media (max-width
+        form input, form textarea {
+            padding: 10px;
+            margin: 10px 0;
