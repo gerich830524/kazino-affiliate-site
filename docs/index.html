@@ -1,4 +1,4 @@
-.<!DOCTYPE html>
+,<!DOCTYPE html>
 <html lang="bg">
 <head>
     <meta charset="UTF-8">
@@ -10,27 +10,64 @@
             background: #f2f2f2;
             color: #333;
             margin: 0;
-            padding: 0;
         }
         header {
             background: #2c3e50;
             color: white;
-            padding: 20px 0;
+            padding: 20px;
             text-align: center;
         }
+        nav {
+            background: #34495e;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
         main {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 30px auto;
-            background: white;
             padding: 20px;
+            background: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             border-radius: 8px;
         }
-        h1 {
+        .offer {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        .offer img {
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .offer-content {
+            flex: 1;
+        }
+        .offer h3 {
             margin-top: 0;
         }
-        p {
-            line-height: 1.6;
+        .btn {
+            display: inline-block;
+            background: #e67e22;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #d35400;
         }
         footer {
             text-align: center;
@@ -38,18 +75,5 @@
             font-size: 0.9em;
             color: #777;
         }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Казино Афилиейт Сайт</h1>
-    </header>
-    <main>
-        <h2>Добре дошли!</h2>
-        <p>Тук ще намерите най-добрите оферти и ревюта за онлайн казина. Следете нашите препоръки и спечелете повече!</p>
-    </main>
-    <footer>
-        &copy; 2025 Казино Афилиейт. Всички права запазени.
-    </footer>
-</body>
-</html>
+
+        @media (max-width
